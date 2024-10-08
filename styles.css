@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #384B70;
+}
+
+.container{
+    width:400px;
+}
+
+.box{
+    width:100px;
+    height:100px;
+    border:2px solid black;
+    border-radius: 10px;
+    border:none;
+
+}
+.main-wrapper{
+    position: relative;
+}
+#instructions{
+    position: absolute; 
+    width: 100%; 
+    max-width: 800px;    
+    height: 100%;    
+    top: 0;
+    left: 12rem;
+    opacity: 0.9;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 2;      
+    cursor: pointer; 
+    }
+
+button{
+    outline: none;
+    border:2px solid black;
+}
